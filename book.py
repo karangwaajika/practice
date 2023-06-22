@@ -1,4 +1,4 @@
-mylist = ('ajika', 'joel', 'chris', 'david')
+mylist = ['ajika', 'joel', 'chris', 'david']
 
-for i in len(mylist):
+for i, ii in enumerate(mylist):
     print(mylist[i])
